@@ -1,2 +1,0 @@
-# iosfinalproject
-IOS FINAL PROJECT
