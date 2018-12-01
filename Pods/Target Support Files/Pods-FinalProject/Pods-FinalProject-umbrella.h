@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_SnapchatProjectVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_SnapchatProjectVersionString[];
+FOUNDATION_EXPORT double Pods_FinalProjectVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_FinalProjectVersionString[];
 

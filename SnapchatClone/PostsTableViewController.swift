@@ -21,7 +21,6 @@ class PostsTableViewController: UIViewController, UITableViewDelegate, UITableVi
     // Dictionary that maps IDs of images to the actual UIImage data
     var loadedImagesById: [String:UIImage] = [:]
     
-    
     let currentUser = CurrentUser()
     
     /// Table view holding all posts from each thread

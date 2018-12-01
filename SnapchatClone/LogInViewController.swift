@@ -13,7 +13,6 @@ import FirebaseAuth
 class LogInViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var emailTextField: UITextField!
-    
     @IBOutlet weak var passwordTextField: UITextField!
     
     var userEmail = ""
@@ -66,26 +65,24 @@ class LogInViewController: UIViewController, UITextFieldDelegate {
     }
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.emailTextField.delegate = self
         self.passwordTextField.delegate = self
-
         // Do any additional setup after loading the view.
     }
 
     //TO DO:
     // Authenticate users automatically if they already signed in earlier.
     // Hint: Just check if the current user is nil using firebase and if not, perform a segue. You're welcome :)
-    override func viewDidAppear(_ animated: Bool) {
-        //YOUR CODE HERE
-        Auth.auth().addStateDidChangeListener({ (auth, user) in
-            if user != nil {
-                self.performSegue(withIdentifier: segueLogInToMainPage, sender: self)
-            }
-        })
-    }
+//    override func viewDidAppear(_ animated: Bool) {
+//        //YOUR CODE HERE
+//        Auth.auth().addStateDidChangeListener({ (auth, user) in
+//            if user != nil {
+//                self.performSegue(withIdentifier: segueLogInToMainPage, sender: self)
+//            }
+//        })
+//    }
     
     func textFieldDidEndEditing(_ textField: UITextField) {
         if textField == self.emailTextField {

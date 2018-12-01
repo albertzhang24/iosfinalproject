@@ -13,7 +13,6 @@ import UIKit
 
 var threads: [String: [Post]] = ["Memes": [], "Dog Spots": [], "Random": []]
 
-
 let threadNames = ["Memes", "Dog Spots", "Random"]
 
 var allImages: [UIImage] = [#imageLiteral(resourceName: "cutePuppy"), #imageLiteral(resourceName: "berkAtNight"), #imageLiteral(resourceName: "meme1"), #imageLiteral(resourceName: "Campanile"), #imageLiteral(resourceName: "meme2"), #imageLiteral(resourceName: "dankMeme2"), #imageLiteral(resourceName: "amazingCutePuppy"), #imageLiteral(resourceName: "cutePuppy"), #imageLiteral(resourceName: "dirks"), #imageLiteral(resourceName: "dankMeme3")]

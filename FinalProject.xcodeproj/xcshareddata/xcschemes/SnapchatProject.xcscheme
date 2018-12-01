@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4196F2C61E6509E8009916E4"
-               BuildableName = "SnapchatProject.app"
-               BlueprintName = "SnapchatProject"
-               ReferencedContainer = "container:SnapchatClone.xcodeproj">
+               BuildableName = "FinalProject.app"
+               BlueprintName = "FinalProject"
+               ReferencedContainer = "container:FinalProject.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4196F2C61E6509E8009916E4"
-            BuildableName = "SnapchatProject.app"
-            BlueprintName = "SnapchatProject"
-            ReferencedContainer = "container:SnapchatClone.xcodeproj">
+            BuildableName = "FinalProject.app"
+            BlueprintName = "FinalProject"
+            ReferencedContainer = "container:FinalProject.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4196F2C61E6509E8009916E4"
-            BuildableName = "SnapchatProject.app"
-            BlueprintName = "SnapchatProject"
-            ReferencedContainer = "container:SnapchatClone.xcodeproj">
+            BuildableName = "FinalProject.app"
+            BlueprintName = "FinalProject"
+            ReferencedContainer = "container:FinalProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4196F2C61E6509E8009916E4"
-            BuildableName = "SnapchatProject.app"
-            BlueprintName = "SnapchatProject"
-            ReferencedContainer = "container:SnapchatClone.xcodeproj">
+            BuildableName = "FinalProject.app"
+            BlueprintName = "FinalProject"
+            ReferencedContainer = "container:FinalProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

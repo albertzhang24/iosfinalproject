@@ -15,12 +15,6 @@ class CurrentUser {
     var username: String!
     var id: String!
     var readPostIDs: [String]?
-    
-    /*TODO:
-     Uncomment the following lines when you reach the appriopriate section in the
-     README. DO NOT UNCOMMENT THE ONES WITHIN THE NEXT TODO:
-     */
-    
     let dbRef = Database.database().reference()
 
     init() {
@@ -60,7 +54,6 @@ class CurrentUser {
      Remember to be very careful about following the structure of the User node before writing any data!
      */
     func addNewReadPost(postID: String) {
-        // YOUR CODE HERE
         dbRef.child(firReadPostsNode).child(id).childByAutoId().setValue(postID)
     }
     
